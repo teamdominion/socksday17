@@ -52,13 +52,12 @@ header p {
 }
 
 #wrap {
-  width: 1200px;
   overflow: hidden;
 }
 
 .button svg {
-  margin: 0;
+  margin: 3%;
   padding: 0;
-  width: 50%;
+  width: 38%;
   float: left;
 }
