@@ -2,6 +2,9 @@ html,
 body {
   margin: 0;
   padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
 }
 
 body.top {
@@ -26,8 +29,8 @@ img {
 
 header {
   margin: 0 auto;
-  padding: 20px;
-  margin-top: 100px;
+  padding: 0 60px;
+  margin-top: 50px;
   overflow: hidden;
 }
 
@@ -36,7 +39,7 @@ header #q-mark {
   height: 100px;
   padding: 0;
   float: left;
-  margin-right: 20px;
+  margin-right: 50px;
 }
 
 header p {
@@ -58,6 +61,19 @@ header p {
 .button svg {
   margin: 3%;
   padding: 0;
-  width: 38%;
+  width: 44%;
+  float: left;
+}
+
+.button img.osuna {
+  margin: 3%;
+  padding: 0;
+  width: 54%;
+  float: left;
+}
+.button img.oshite {
+  margin: 3%;
+  padding: 0;
+  width: 34%;
   float: left;
 }
